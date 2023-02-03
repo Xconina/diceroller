@@ -60,11 +60,8 @@ def d100():
     print(".")
     time.sleep(0.5)
     print(".")
-    numlist = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
-    num10 = random.randint(1,10)
-    num100part = random.choice(numlist)
-    num100 = num100part + num10
-    print(num100)
+    num10 = random.randint(1,100)
+    print(num10)
 
 #create buttons for different die
 Button(root, text = 'd4', font= 'terminal 20', command = d4, bg='#84c50a').place(x=60, y=120)
